@@ -849,6 +849,7 @@ li {
 
 li img{
     width: 100%;
+    cursor: pointer;
 }
 
 #color_size{
