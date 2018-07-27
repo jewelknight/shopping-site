@@ -27,6 +27,10 @@ body{
     padding: 20px;
 }
 
+#sp_navi{
+    text-align: center;
+}
+
 #sp_fb_btn,#sp_insta_btn,#sp_menu_btn{
     padding-left: 6px;
     padding-bottom: 20px;
@@ -61,6 +65,7 @@ body{
 
 #slide{
     margin: auto;
+    width: 90%;
 }
 
 /* カルーセル */
@@ -154,25 +159,25 @@ body{
     padding: 8px;
     background-image: url("../images/top/search_icon.png");
     background-repeat: no-repeat;
-    background-position: 339px;
+    background-position: 90%;
 }
 
 #pagelink{
     background-image: url("../images/top/next_icon.png");
     background-repeat: no-repeat;
-    background-position: 400px;
+    background-position: 90%;
 }
 
 #categories{
     background-image: url("../images/top/down_icon.png");
     background-repeat: no-repeat;
-    background-position: 392px;
+    background-position: 90%;
 }
 
 #list{
     background-image: url("../images/top/next_icon_gray.png");
     background-repeat: no-repeat;
-    background-position: 400px;
+    background-position: 90%;
 }
 
 #pagelink,#categories,#about,#shopinfo{
@@ -195,6 +200,10 @@ body{
 
 #about,#shopinfo{
     margin-top: 16px;
+}
+
+#about_img,#shopinfo_img{
+    width: 100%;
 }
 
 #shopbox{
