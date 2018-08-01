@@ -107,13 +107,15 @@
         <th></th><th>カラー1</th><th>カラー1</th>
     </tr>
     <tr>
-        <th>サイズ</th><td>□</td><td>□</td>
+        <th>サイズ</th><td><input type="checkbox" name="#" value="color_1" id="color_1" /><label for="color_1" id="checkbox_label"></label></td>
+        <td><input type="checkbox" name="#" value="color_2" id="color_2" /><label for="color_2" id="checkbox_label"></label></td>
     </tr>
 </table>
 </div>
 
 <div id="border_2"></div>
 <div id="medium_border_top"></div>
+
 <div id="pro_price"><img src="images/products/title_price.png"></div>
 <div id="price">￥1,000<span id="tax">(tax in)</span></div>
 
@@ -123,7 +125,7 @@
 <div id="medium_border_bottom"></div>
 
 <div id="quantity"><img src="images/products/title_quantity.png"></div>
-<div id="border_box"></div>
+<input id="number_box" type="number" name="#">
 
 <div id="border_1"></div>
 
@@ -212,8 +214,11 @@
     
 <div id="sidebox">
 <div id="itemsearch">
-<img src="images/top/itemserch.png">
-<div id="search">search..</div>
+<img id="itemsearch_img" src="images/top/itemserch.png">
+<form id="form" action="#">
+<input id="search_box" type="search" placeholder="search..">
+</form>
+
 </div>
 <div id="pagelink"><img src="images/top/pagelink.png"></div>
 <div id="categories"><img src="images/top/categories.png"></div>
